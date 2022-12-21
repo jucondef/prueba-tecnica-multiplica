@@ -1,0 +1,41 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "PT-Multiplica",
+        "description": "API for PT-Multiplica",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/user/{id}": {
+            "get": {
+                "tags": [
+                    "User"
+                ],
+                "summary": "Show data user",
+                "operationId": "getInformationUser",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "400": {
+                        "description": "Bad request"
+                    },
+                    "500": {
+                        "description": "Server error."
+                    }
+                }
+            }
+        }
+    }
+}
