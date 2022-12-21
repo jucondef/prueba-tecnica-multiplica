@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "277649e6-971c-4936-b400-7a78cfd25755",
+		"name": "PTMultiplica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24238386"
+	},
+	"item": [
+		{
+			"name": "User Specific",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url_local}}/api/user/4",
+					"host": [
+						"{{url_local}}"
+					],
+					"path": [
+						"api",
+						"user",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
