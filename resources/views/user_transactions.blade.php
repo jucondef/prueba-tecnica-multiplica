@@ -5,7 +5,7 @@
     <div class="container">
         @if ($transactions->count() == 0)
         <div class="alert alert-danger" role="alert">
-            No transactions data aviable for this client
+            This customer has no available transactions
             <a href="{{route('getInformationUser')}}">Back</a>
           </div>
 
